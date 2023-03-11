@@ -33,3 +33,5 @@ const t1_facebook = "images/theme1/t1_facebook.png";
 const t1_instagram = "images/theme1/t1_instagram.png";
 const t1_linkedin = "images/theme1/t1_linkedin.png";
 const t1_whatsup = "images/theme1/t1_whatsapp.png";
+
+const S1_SIProfile = "images/theme1/SignInProf.png";

@@ -110,6 +110,18 @@ const t1_500 = "500";
 const t1_lbl__12_min_ago = "12 min ago";
 const t1_lbl_ceo = "CEO";
 const t1_email_phone_no = "Email Id / Phone Number";
+
+
+const t1_hint_FName = "First Name";
+const t1_hint_MName = "Middle Name";
+const t1_hint_LName = "Last Name";
+const t1_email = "Email";
+const t1_sex = "Sex";
+const t1_phone_no = "Phone Number";
+const t1_hint_address = "Address";
+const t1_age = "Age";
+const t1_lbl_register_header = "Account Registration";
+
 /*
 <string-array name="theme2_gender">
 <item>Male</item>

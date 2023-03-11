@@ -5,8 +5,10 @@ import 'package:sciquest_mobile/main/store/AppStore.dart';
 import 'package:sciquest_mobile/main/utils/AppTheme.dart';
 import 'package:sciquest_mobile/theme1/screen/T1Dashboard.dart';
 import 'package:sciquest_mobile/theme1/screen/T1Signup.dart';
+
 import 'package:sciquest_mobile/theme1/screen/T1WalkThrough.dart';
 import 'package:sciquest_mobile/theme1/screen/t1_walk/IntroScreen.dart';
+import 'package:sciquest_mobile/theme1/screen/S1Signup.dart';
 
 import 'main/utils/AppConstant.dart';
 
@@ -18,13 +20,14 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  
   @override
   Widget build(BuildContext context) {
     return Observer(
       builder: (_) => MaterialApp(
           debugShowCheckedModeBanner: false,
           title: '$mainAppName${!isMobile ? ' ${platformName()}' : ''}',
-          home: T1WalkThrough(),
+          home: S1Signup(),
           theme: !appStore.isDarkModeOn
               ? AppThemeData.lightTheme
               : AppThemeData.darkTheme,
